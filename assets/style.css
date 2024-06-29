@@ -18,7 +18,7 @@ main {
     height: 100vh;
     position: relative;
 }
-#telefone {
+section#telefone {
     background-image: url(pacote-d013/imagens/frame-iphone.png);
     height: 627px;
     width: 311px;
@@ -27,11 +27,28 @@ main {
     left: 50%;
     transform: translate(-50%, -50%);
 }
-#iframe {
+iframe#iframe {
     position: relative;
     top: 50%;
     left: 50%;
     transform: translate(-50% , -50%);
     height: 480px;
     width: 269px;
+}
+
+section#redes-sociais {
+    text-align: right;
+}
+section#redes-sociais img {
+    width: 50px;
+    border-radius: 50%;
+    margin: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.548);
+    box-sizing: border-box;
+}
+section#redes-sociais img:hover{
+    transform: translate(-2px, -1px);
+    transition: transform .5s, border .2s;
+    border: 1px solid white;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.589);
 }
